@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="chenxi-dev-a100-2.us-central1-c.reproducibility-crusade" id="8fde4946-0009-45a4-b998-abe8cabfe1e9" port="22" nameFormat="DESCRIPTIVE" username="chenxi" />
+    </configs>
+  </component>
+</project>

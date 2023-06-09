@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="310618ac-cdcd-4e38-83ad-fc32387afc3e" name="uni">
+        <fileTransfer rootFolder="/home/chenxi/replicate" accessType="SFTP" host="chenxi-dev-a100-2.us-central1-c.reproducibility-crusade" port="22" sshConfigId="8fde4946-0009-45a4-b998-abe8cabfe1e9" sshConfig="chenxi@chenxi-dev-a100-2.us-central1-c.reproducibility-crusade:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

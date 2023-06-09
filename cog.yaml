@@ -1,0 +1,15 @@
+# Configuration for Cog ⚙️
+# Reference: https://github.com/replicate/cog/blob/main/docs/yaml.md
+
+build:
+  gpu: true
+  cuda: "11.7"
+  python_version: "3.8"
+  python_packages:
+    - "torch==2.0.1"
+    - "torchvision==0.15.2"
+    - "transformers== 4.30.0"
+    - git+https://github.com/pabloppp/pytorch-tools
+  run:
+    - mkdir -p /root/.cache/torch/hub/checkpoints && wget --output-document "/root/.cache/torch/hub/checkpoints/efficientnet_v2_l-59c71312.pth" "https://download.pytorch.org/models/efficientnet_v2_l-59c71312.pth"
+predict: "predict.py:Predictor"
